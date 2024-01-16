@@ -39,6 +39,7 @@
                                 class="text-green-600 font-bold">{{ $destino->precio }}€</span></p>
                         <p class="mb-2"><span class="mr-2">Fecha Ida:</span>{{ $destino->fecha_ida }}</p>
                         <p class="mb-2"><span class="mr-2">Fecha Vuelta:</span>{{ $destino->fecha_vuelta }}</p>
+                        <p class="mb-2"><span class="mr-2">Numero de Personas:</span>{{ $destino->total_personas }}</p>
 
                         <div class="mb-4 prose max-w-full">
                             <p class="mb-2"><span class="mr-2">Descripción:</span>{{ $destino->descripcion }}</p>
