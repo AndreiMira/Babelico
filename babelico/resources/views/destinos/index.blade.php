@@ -10,6 +10,13 @@
             opacity: 1;
             visibility: visible;
         }
+
+        /* Añade estos estilos para establecer altura y anchura iguales para las imágenes */
+        .card-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     </style>
 
     <h1 class="text-4xl text-white text-center my-8">Destinos</h1>
